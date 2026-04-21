@@ -1,0 +1,118 @@
+<!--
+  Подключение шрифтов.
+  Oranienbaum — Google Fonts (работает в Gmail, Apple Mail, Outlook на Mac).
+  Nunito — замена Gilroy, очень близкий по характеру, Google Fonts.
+  В Outlook на Windows веб-шрифты не поддерживаются — там сработают fallback-шрифты.
+-->
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Oranienbaum&family=Montserrat:wght@400&display=swap');
+</style>
+
+<table cellpadding="0" cellspacing="0" style="font-family: 'Montserrat', sans-serif; color: #171928;">
+  <tbody>
+  <tr>
+
+    <!-- ФОТО СЛЕВА С ФОНОВЫМ ИЗОБРАЖЕНИЕМ -->
+    <td style="vertical-align: top; padding-right: 20px;">
+      <div style="position: relative; width: 120px; height: 120px;">
+        <img src="BACKGROUND_IMAGE.png" alt="" width="140" height="200"
+             style="position: absolute; top: -10px; left: -10px; z-index: 0;">
+        <img src="AVATAR.png" alt="Polina Soloveva" width="120" height="180"
+             style="display: block; object-fit: cover; position: relative; z-index: 1;">
+      </div>
+    </td>
+
+    <!-- ЦЕНТРАЛЬНАЯ ЧАСТЬ: имя, должность, контакты -->
+    <td style="vertical-align: top; padding-right: 24px; padding-top: 10px;">
+      <table cellpadding="0" cellspacing="0">
+        <tbody>
+
+        <!-- Имя и должность -->
+        <tr>
+          <td colspan="2" style="padding-bottom: 16px;">
+            <div style="font-family: 'Oranienbaum', Georgia, serif; font-weight: 400; font-size: 36px; color: #171928; line-height: 1.2;">
+              Polina Soloveva
+            </div>
+            <div style="font-family: 'Montserrat', Arial, sans-serif; font-weight: 400; font-size: 14px; color: #555; padding-top: 4px; letter-spacing: 0.3px;">
+              Brand Manager
+            </div>
+          </td>
+        </tr>
+
+        <!-- Телефон -->
+        <tr>
+          <td style="vertical-align: middle; padding-right: 8px; padding-top: 7px; width: 20px;">
+            <img src="ICON_PHONE.png" alt="" width="16" height="16" style="display: block;">
+          </td>
+          <td style="padding-top: 7px;">
+            <a href="tel:+79099441064"
+               style="font-family: 'Montserrat', Arial, sans-serif; font-weight: 400; font-size: 14px; color: #171928; text-decoration: underline;">
+              +7 (909) 944-10-64
+            </a>
+          </td>
+        </tr>
+
+        <!-- Email -->
+        <tr>
+          <td style="vertical-align: middle; padding-right: 8px; padding-top: 7px; width: 20px;">
+            <img src="ICON_MAIL.png" alt="" width="16" height="16" style="display: block;">
+          </td>
+          <td style="padding-top: 7px;">
+            <a href="mailto:polina@bigmagicstudio.net"
+               style="font-family: 'Montserrat', Arial, sans-serif; font-weight: 400; font-size: 14px; color: #171928; text-decoration: underline;">
+              polina@bigmagicstudio.net
+            </a>
+          </td>
+        </tr>
+
+        <!-- Сайт -->
+        <tr>
+          <td style="vertical-align: middle; padding-right: 8px; padding-top: 7px; width: 20px;">
+            <img src="ICON_WEB.png" alt="" width="16" height="16" style="display: block;">
+          </td>
+          <td style="padding-top: 7px;">
+            <a href="https://bigmagicstudio.net"
+               style="font-family: 'Montserrat', Arial, sans-serif; font-weight: 400; font-size: 14px; color: #171928; text-decoration: underline;">
+              bigmagicstudio.net
+            </a>
+          </td>
+        </tr>
+
+        </tbody>
+      </table>
+    </td>
+
+    <!-- ПРАВАЯ ЧАСТЬ: логотип + соцсети -->
+    <td style="vertical-align: top; padding-top: 15px;">
+      <table cellpadding="0" cellspacing="0"
+             style="border-left: 1px solid #171928; padding: 8px 0 8px 20px;">
+        <tbody>
+
+        <!-- Логотип -->
+        <tr>
+          <td style="text-align: center; padding-top:30px; padding-bottom: 30px;">
+            <img src="LOGO.png" alt="Big Magic Studio" width="140" style="display: block; margin: 0 auto;">
+          </td>
+        </tr>
+
+        <!-- Соцсети -->
+        <tr>
+          <td style="text-align: center;">
+            <a href="https://wa.me/79099441064" target="_blank"
+               style="margin-right: 8px; text-decoration: none; display: inline-block;">
+              <img src="ICON_WA.png" alt="WhatsApp" width="20" height="20">
+            </a>
+            <a href="https://instagram.com/bigmagicstudio" target="_blank"
+               style="text-decoration: none; display: inline-block;">
+              <img src="ICON_IG.png" alt="Instagram" width="20" height="20">
+            </a>
+          </td>
+        </tr>
+
+        </tbody>
+      </table>
+    </td>
+
+  </tr>
+  </tbody>
+</table>
